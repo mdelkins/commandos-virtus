@@ -4,7 +4,7 @@ A plugin for the [commandoes](http://github.com/mdelkins/commandoes) library.
 This plugin adds `Virtus.value_object` to your commandoes commands.
 
 ## PREREQUISITES
-* ruby-2.3.1
+* ruby-2.4.0
 
 ## INSTALLATION
 

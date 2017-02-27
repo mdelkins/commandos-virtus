@@ -1,7 +1,7 @@
-# COMMANDOES-VIRTUS
+# COMMANDOS-VIRTUS
 
-A plugin for the [commandoes](http://github.com/mdelkins/commandoes) library.
-This plugin adds `Virtus.value_object` to your commandoes commands.
+A plugin for the [commandos](http://github.com/mdelkins/commandos) library.
+This plugin adds `Virtus.value_object` to your commandos commands.
 
 ## PREREQUISITES
 * ruby-2.4.0
@@ -11,14 +11,14 @@ This plugin adds `Virtus.value_object` to your commandoes commands.
 In your Gemfile
 
 ```
-gem 'commandoes-virtus'
+gem 'commandos-virtus'
 ```
 
 ## EXAMPLES
 
 ```ruby
-class FooCommand < Commandoes::IAmACommand
-  use Commandoes::Plugins::VirtusPlugin
+class FooCommand < Commandos::IAmACommand
+  use Commandos::Plugins::VirtusPlugin
 
   values do
     string   :foo

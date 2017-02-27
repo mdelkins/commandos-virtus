@@ -1,10 +1,10 @@
 require 'test_helper'
 
-module Commandoes
+module Commandos
   class IAmACommandTest < Minitest::Test
     class WhenUsingHelper < IAmACommandTest
       class FakeCommand < IAmACommand
-        use Commandoes::Plugins::VirtusPlugin
+        use Commandos::Plugins::VirtusPlugin
 
         values do
           bool     :bool

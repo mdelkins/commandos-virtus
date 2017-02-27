@@ -6,6 +6,9 @@ This plugin adds `Virtus.value_object` to your commandos commands.
 ## PREREQUISITES
 * ruby-2.4.0
 
+## DEPENDENCIES
+* Virtus
+
 ## INSTALLATION
 
 In your Gemfile
